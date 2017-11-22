@@ -11,6 +11,7 @@ public class Card {
 		 suit=cardSuit;
 		
 	}
+	//Creating the display text on console.
 	public String toString()
 	{
 		return face +" of "+ suit;
