@@ -1,5 +1,9 @@
 package deck;
 
+/**
+ * @author vinayak gupta
+ *
+ */
 public class DeckofCardsTest {
 
 	public static void main(String[] args)

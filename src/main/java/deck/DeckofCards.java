@@ -2,6 +2,10 @@ package deck;
 
 import java.util.Random;
 
+/**
+ * @author vinayak gupta
+ *
+ */
 public class DeckofCards {
 	private Card deck[]; // where the cards of deck gets stored.
 
