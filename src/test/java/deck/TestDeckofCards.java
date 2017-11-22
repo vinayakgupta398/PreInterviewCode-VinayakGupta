@@ -22,6 +22,9 @@ public class TestDeckofCards {
 		assertTrue("The Size of the deck is 52", checkingCount);
 	}
 	//To check the deck of cards contain every single card and no repetition of cards. 
+	/**
+	 * 
+	 */
 	@Test
 	public void checkFacesAndSuitOfCards()
 	{
