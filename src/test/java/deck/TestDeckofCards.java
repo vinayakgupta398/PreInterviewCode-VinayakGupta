@@ -10,7 +10,7 @@ import java.util.Map;
 import org.junit.Test;
 
 public class TestDeckofCards {
-	
+	//To check if the count of the deck is 52 or not as one ideal deck of cards contains 52 cards.
 	@Test
 	public void checkCountOfCards()
 	{
@@ -19,17 +19,13 @@ public class TestDeckofCards {
 			checkingCount=true;
 		else
 			checkingCount=false;
-		
 		assertTrue("The Size of the deck is 52", checkingCount);
 	}
+	//To check the deck of cards contain every single card and no repetition of cards. 
 	@Test
 	public void checkFacesAndSuitOfCards()
 	{
-		//One method can be
-		// We can use map<key,list<>> where
-		// key would be (spades/clubs/diamonds/hearts) and 
-		// the list would be having face of the card i.e. Ace,Deuce,Three,Four,Five,Six,Seven,Eight,Nine,Ten,Jack,Queen,King
-		//this could be done in order to check if every suit has all the face card been formed, for this we need to break the string.
+		//Using HashMap can ensure that every card is taken once as the key in the Hash Map is unique.
 		HashMap<String,Integer> mp = new HashMap<String,Integer>();
 		HashMap<String,Integer> mpDuplicateCards = new HashMap<String,Integer>();
 		Card[] validatingDeck=new DeckofCards().setOfCardsInDeck();
